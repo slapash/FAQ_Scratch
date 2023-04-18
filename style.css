@@ -64,4 +64,21 @@ body {
     margin-left: 10px;
     border-radius: 50%;
   }
+
+ .logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 1vh; /* This sets the minimum height to 100% of the viewport height */
+    width: 100%; /* This sets the width to 100% of the parent element */
+  }
+  
+  .logo-link {
+    text-decoration: none;
+  }
+  
+  .logo-image {
+    border: none;
+  }
+  
   
